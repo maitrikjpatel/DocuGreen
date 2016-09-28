@@ -963,7 +963,7 @@
 /* Main */
 
 	.main {
-		@include padding(6em, 0);
+		@include padding(3em, 0);
 
 		&.style1 {
 			background: _palette(bg);
@@ -980,7 +980,7 @@
 /* Header */
 
 	#header {
-		@include padding(9em, 0, (0,0,_size(element-margin),0));
+		@include padding(3em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
 		background-image:		url('images/overlay2.png'),		url('images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
@@ -996,6 +996,7 @@
 		}
 		h1 {
 			margin: 0;
+			margin-top: 3rem;
 		}
 
 		p {
@@ -1035,7 +1036,6 @@
 
 		&:after {
 			@include vendor('transition', 'opacity 1s ease');
-			background-image: linear-gradient(45deg, _palette(accent3-alt), _palette(accent6-alt));
 			content: '';
 			height: 100%;
 			left: 0;

@@ -42,7 +42,8 @@ ul.cd-items {
 
 .cd-item {
   position: relative;
-  margin: 0 0.5em 0 0.5em;
+  padding: 1.25em 0 0.25em 0;
+  margin: 1.25em 0 1.25em 0;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: 3px 3px 5px 0px rgba(155, 155, 155, 0.2);
   -moz-box-shadow: 3px 3px 5px 0px rgba(155, 155, 155, 0.2);
@@ -59,7 +60,10 @@ ul.cd-items {
     display: block;
     width: 50%;
     margin: auto;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    color: white; }
+    .cd-item > img svg {
+      fill: currentColor; }
   @media only screen and (min-width: 768px) {
     .cd-item {
       width: 48%;
@@ -87,8 +91,7 @@ ul.cd-items {
         background-color: rgba(255, 255, 255, 0.7); } }
 
 .cd-trigger {
-  height: 125px;
-  line-height: 10px;
+  margin-top: 10px;
   width: 100%;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -97,9 +100,10 @@ ul.cd-items {
   opacity: 1; }
   .cd-trigger h1, .cd-trigger h4 {
     color: white;
-    margin-bottom: .75rem; }
-    .cd-trigger h1 strong, .cd-trigger h4 strong {
-      color: white; }
+    margin-bottom: .75rem;
+    font-weight: bold; }
+  .cd-trigger p {
+    margin-bottom: 1rem; }
 
 .cd-quick-view {
   /* quick view non available on small devices */
@@ -161,7 +165,7 @@ ul.cd-items {
     .cd-slider li.selected {
       position: relative;
       z-index: 3;
-      background: gray;
+      background: #f6b610;
       padding: 50px; }
   .add-content .cd-slider {
     margin-right: 3em; }
@@ -2448,7 +2452,7 @@ button,
 
 /* Main */
 .main {
-  padding: 6em; }
+  padding: 3em; }
   .main.style1 {
     background: #fff; }
   .main.style2 {
@@ -2514,7 +2518,7 @@ button,
 
 /* Header */
 #header {
-  padding: 9em;
+  padding: 3em;
   background-color: #4686a0;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed,							fixed,							fixed;
@@ -2583,7 +2587,8 @@ button,
     height: 100vh;
     width: 100vw; }
   #header h1 {
-    margin: 0; }
+    margin: 0;
+    margin-top: 3rem; }
   #header p {
     margin: 1em 0 0 0; }
   #header .actions {
@@ -2632,7 +2637,6 @@ button,
     -webkit-transition: opacity 1s ease;
     -ms-transition: opacity 1s ease;
     transition: opacity 1s ease;
-    background-image: linear-gradient(45deg, #3ca5be, #1c3f81);
     content: '';
     height: 100%;
     left: 0;
