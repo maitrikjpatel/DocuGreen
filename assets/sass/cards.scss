@@ -37,15 +37,19 @@ Main components
 }
 
 ul{
-	&.cd-items {
+	&.cd-items{
 		list-style: none;
 	}
 }
 
+
 .cd-item {
 	position: relative;
-	margin: 0 0 1em;
-
+	margin: 0 0.5em 0 0.5em;
+	background-color: rgba(white,0.1);
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
+	box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
 	.tile{
 		display: block;
 		width: 100%;
@@ -54,12 +58,14 @@ ul{
 			height: 100px;
 		}
 		img{
-			height: 100px;
+			height: 50px;
 		}
 	}
 	> img {
 		display: block;
-		width: 100%;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 20px;
 	}
 
 	@include MQ(M) {
@@ -73,7 +79,8 @@ ul{
 
 	@include MQ(L) {
 		@include column(.22);
-		margin: 0 4% 2.8em 0;
+		margin: 1.25em 4% 1.25em 0;
+		padding-top: 1.25em;
 
 		&:nth-child(2n) {
 			margin-right: 4%;
@@ -90,49 +97,25 @@ ul{
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: darken($color-3, 5%);
+			background-color: rgba(white,0.7);
 		}
 	}
 }
 
 .cd-trigger {
-	position: absolute;
-	height: 50px;
-	line-height: 50px;
+	height: 125px;
+	line-height: 10px;
 	width: 100%;
-	bottom: 0;
-	left: 0;
-	background: rgba(#000, .1);
 	text-align: center;
 	@include font-smoothing;
-	color: $color-4;
-	opacity: 0;
-	visibility: hidden;
-	@include transition(opacity .2s, background-color .2s);
-
-	.no-touch &:hover {
-		background: rgba(#000, .2);
-	}
-
-	@include MQ(L) {
-		/* always visible on small devices */
-		visibility: visible;
-		opacity: 1;
-	}
-
-	@include MQ(XL) {
-		/* only visible on hover on big devices */
-		opacity: 0;
-	}
-}
-
-@include MQ(XL) {
-	.no-touch .cd-item:hover .cd-trigger {
-		opacity: 1;
-	}
-
-	.touch .cd-item .cd-trigger {
-		opacity: 1;
+	color: white;
+	opacity: 1;
+	h1,h4{
+		color: white;
+		margin-bottom: .75rem;
+		strong{
+			color: white;
+		}
 	}
 }
 
@@ -174,11 +157,14 @@ ul{
 	display: inline-block;
 	float: left;
 	@include clearfix;
+	ul{
+		list-style: none;
+	}
 }
 
 .cd-slider {
 	float: left;
-
+  margin-top: 2rem;
 	li {
 		position: absolute;
 		top: 0;
@@ -188,12 +174,14 @@ ul{
 		img {
 			display: block;
 			width: 100%;
-			max-width: 400px;
+			max-width: 300px;
 		}
 
 		&.selected {
 			position: relative;
 			z-index: 3;
+			background: gray;
+    	padding: 50px;
 		}
 	}
 
@@ -296,7 +284,7 @@ ul{
 	p {
 		line-height: 1.6;
 		margin: 1em 0;
-		color: lighten($color-1, 20%);
+		color: #4d4d4d;
 	}
 
 	.cd-item-action li {

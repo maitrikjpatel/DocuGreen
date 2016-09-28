@@ -1601,28 +1601,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/item-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28704,
-		"inputAbbreviatedPath": "\/images\/item-2.jpg",
-		"outputAbbreviatedPath": "\/images\/item-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/item-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20231,
-		"inputAbbreviatedPath": "\/images\/item-3.jpg",
-		"outputAbbreviatedPath": "\/images\/item-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/pic01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
