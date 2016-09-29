@@ -1,5 +1,5 @@
 /*
-	Photon by HTML5 UP
+	DocuSign GreenScore
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -46,7 +46,7 @@
 	// 	pages = pages + each envelope[i] -> signers -> tabs -> signatureid -> pagenumbers
 	// }
 
-	var pages = Math.round((signature*5));
+	var pages = $('#pages').text();
 	$('#pages').text(pages);
 
 	var trees = Math.round((signature*0.6));
@@ -65,6 +65,19 @@
 	$('#money').text(money);
 	var employees = Math.round( ((signature*27.18)/7.2)	);
 	$('#employees').text(employees);
+
+
+	$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
