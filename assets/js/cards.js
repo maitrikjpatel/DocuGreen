@@ -58,7 +58,7 @@ jQuery(document).ready(function($){
 
 	function resizeQuickView() {
 		var quickViewLeft = ($(window).width() - $('.cd-quick-view').width())/2,
-			quickViewTop = ($(window).height() - $('.cd-quick-view').height())/2;
+			  quickViewTop = ($(window).height() - $('.cd-quick-view').height())/2;
 		$('.cd-quick-view').css({
 		    "top": quickViewTop,
 		    "left": quickViewLeft,

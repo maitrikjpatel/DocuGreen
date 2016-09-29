@@ -6,6 +6,45 @@
 
 (function($) {
 
+	var signature = $('#signature').text();
+	// console.log(signature);
+
+	var pages = Math.round((signature*5));
+	// console.log(pages);
+	$('#pages').text(pages);
+
+	var trees = Math.round((signature*0.6));
+	// console.log(trees);
+	$('#trees').text(trees);
+
+	var co2 = Math.round((signature*6.35169119*5) );
+	// console.log(co2);
+	$('#co2').text(co2);
+
+	var vex = Math.round(((signature*6.35169119*5)/13.6860625));
+	// console.log(vex);
+	$('#vex').text(vex);
+
+	var water = Math.round((signature*10*5));
+	// console.log(water);
+	$('#water').text(water);
+
+	var waste = Math.round((signature*2.2*5));
+	// console.log(waste);
+	$('#waste').text(waste);
+
+	var time = Math.round((signature*1.29));
+	// console.log(time);
+	$('#time').text(time);
+
+	var money = Math.round((signature*27.18));
+	// console.log(money);
+	$('#money').text(money);
+
+	var employees = Math.round( ((signature*27.18)/7.2)	);
+	// console.log(employees);
+	$('#employees').text(employees);
+
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1140px)',

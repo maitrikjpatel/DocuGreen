@@ -32,7 +32,7 @@ Main components
 	}
 
 	@include MQ(L) {
-		padding: 4em 0 0;
+		padding: 0 0 0;
 	}
 }
 
@@ -48,9 +48,9 @@ ul{
 	padding: 1.25em 0 0.25em 0;
 	margin: 1.25em 0 1.25em 0;
 	background-color: rgba(white,0.1);
-	-webkit-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
-	-moz-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
-	box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
+	// -webkit-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
+	// -moz-box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
+	// box-shadow: 3px 3px 5px 0px rgba(155,155,155,0.2);
 	.tile{
 		display: block;
 		width: 100%;
@@ -114,19 +114,33 @@ ul{
 	@include font-smoothing;
 	color: white;
 	opacity: 1;
-	h1,h4{
-		color: white;
+	h1{
+		color: $color-2;
 		margin-bottom: .75rem;
 		font-weight: bold;
 	}
+	h4{
+		color: white;
+		font-weight: bold;
+		margin-bottom: .5rem;
+		@include MQ(M) {
+
+		}
+	}
 	p{
-		margin-bottom: 1rem;
+		display: none;
+		@include MQ(M) {
+			display: block;
+			margin-bottom: 1rem;
+		}
 	}
 }
 
 .cd-quick-view {
 	/* quick view non available on small devices */
 	display: none;
+	top: 100px !important;
+	left: calc(50% - 450px) !important;
 
 	@include MQ(L) {
 		display: block;
@@ -186,7 +200,7 @@ ul{
 			position: relative;
 			z-index: 3;
 			background: $color-2;
-    	padding: 50px;
+    	padding: 125px;
 		}
 	}
 

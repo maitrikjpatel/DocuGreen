@@ -6,7 +6,7 @@
 /* Header */
 #header {
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#3ca5be", endColorStr="#1c3f81", GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#2061c1", endColorStr="#1c3f81", GradientType=1);
   position: relative; }
   #header:before {
     background-image: url("images/overlay2.png"), url("images/overlay3.svg");
@@ -25,7 +25,7 @@
 /* Footer */
 #footer {
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#1c3f81", endColorStr="#3ca5be", GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#1c3f81", endColorStr="#2061c1", GradientType=1);
   position: relative; }
   #footer:before {
     background-image: url("images/overlay2.png"), url("images/overlay4.svg");
