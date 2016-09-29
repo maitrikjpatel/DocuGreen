@@ -69,6 +69,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/js\/cards.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/cards.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/cards-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/ie\/html5shiv.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -124,12 +135,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/main1.js": {
+	"\/assets\/js\/min\/cards-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/main1.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/main1-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/min\/cards-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/cards-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1568,6 +1590,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/docusign-earth-day-blog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29767,
+		"inputAbbreviatedPath": "\/images\/docusign-earth-day-blog.jpg",
+		"outputAbbreviatedPath": "\/images\/docusign-earth-day-blog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/docusign-greenscore.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1575,6 +1608,17 @@
 		"initialSize": 7052,
 		"inputAbbreviatedPath": "\/images\/docusign-greenscore.png",
 		"outputAbbreviatedPath": "\/images\/docusign-greenscore.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/docusign-saves-money.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38543,
+		"inputAbbreviatedPath": "\/images\/docusign-saves-money.jpg",
+		"outputAbbreviatedPath": "\/images\/docusign-saves-money.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1590,6 +1634,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/increase-greenscore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46685,
+		"inputAbbreviatedPath": "\/images\/increase-greenscore.jpg",
+		"outputAbbreviatedPath": "\/images\/increase-greenscore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/item-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1597,6 +1652,17 @@
 		"initialSize": 19543,
 		"inputAbbreviatedPath": "\/images\/item-1.jpg",
 		"outputAbbreviatedPath": "\/images\/item-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/paper-free-world.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44681,
+		"inputAbbreviatedPath": "\/images\/paper-free-world.jpg",
+		"outputAbbreviatedPath": "\/images\/paper-free-world.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

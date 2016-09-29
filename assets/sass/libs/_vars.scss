@@ -31,8 +31,14 @@ $primary-font: 'Source Sans Pro', Helvetica, sans-serif;
 $color-1: #6ac6dc;
 $color-2: #f6b610;
 $color-3: #0d338a;
-$color-4: #ffffff; // white
+$color-4: #ffffff; // white'
 
+$left-color:  #242e4d;
+$right-color: #897e79;
+$green-dark:  #35c3c1;
+$green-light: #00d6b7;
+$gray:        #8f8f8f;
+$gray-light:  #f5f6f8;
 
 // Palette.
 	$palette: (
@@ -50,12 +56,13 @@ $color-4: #ffffff; // white
 		accent4:			#2c6ee1,
 		accent5:			#1b49a0,
 		accent6:			#0d338a,
-		accent1-alt:		desaturate(darken(#52b4cd, 15), 10),
+		accent1-alt:		desaturate(darken(#6BCAE2, 15), 10),
 		accent2-alt:		desaturate(darken(#6ac6dc, 15), 10),
-		accent3-alt:		desaturate(darken(#4186ec, 15), 10),
+		accent3-alt:		desaturate(darken(#40b0ec, 15), 10),
 		accent4-alt:		desaturate(darken(#4186ec, 15), 10),
 		accent5-alt:		desaturate(darken(#2c6ee1, 15), 10),
 		accent6-alt:		desaturate(darken(#1e5bcb, 15), 10),
+		accent7-alt:		desaturate(darken(#1e5bcb, 15), 10),
 
 		dark: (
 			bg:				#666666,
